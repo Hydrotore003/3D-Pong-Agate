@@ -4,15 +4,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class CreditUI : MonoBehaviour
+public class InGameUIScript : MonoBehaviour
 {
     public void MainMenu()
     {
         SceneManager.LoadScene("Main Menu Scene");
     }
 
-    public void GitHub()
+    public void Replay()
     {
-        Application.OpenURL("https://github.com/Hydrotore003");
+        SceneManager.LoadScene("InGame Scene");
     }
 }

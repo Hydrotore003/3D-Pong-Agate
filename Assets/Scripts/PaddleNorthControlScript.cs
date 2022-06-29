@@ -24,14 +24,14 @@ public class PaddleNorthControlScript : MonoBehaviour
     {
         if (Input.GetKey(leftKey))
         {
-            if (GetComponent<Rigidbody>().position.x > -45f)
+            if (GetComponent<Rigidbody>().position.x > -39f)
             {
                 return Vector3.left * speed;
             }
         }
         else if (Input.GetKey(rightKey))
         {
-            if (GetComponent<Rigidbody>().position.x < 44f)
+            if (GetComponent<Rigidbody>().position.x < 38f)
             {
                 return Vector3.right * speed;
             }

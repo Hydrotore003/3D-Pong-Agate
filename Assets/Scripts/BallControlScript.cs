@@ -53,8 +53,8 @@ public class BallControlScript : MonoBehaviour
                 if (Random.value < 0.5f)
                 {
                     transform.position = new Vector3(-49, 25, 48);
-                    VelX = Random.Range(10, 60);
-                    VelY = Random.Range(10, 60);
+                    VelX = Random.Range(10, 80);
+                    VelY = Random.Range(10, 80);
                     rig.velocity = new Vector2(VelX, VelY);
 
                     GetComponent<Renderer>().enabled = true;
@@ -63,8 +63,8 @@ public class BallControlScript : MonoBehaviour
                 else
                 {
                     transform.position = new Vector3(47, 25, 48);
-                    VelX = Random.Range(-10, -60);
-                    VelY = Random.Range(10, 60);
+                    VelX = Random.Range(-10, -80);
+                    VelY = Random.Range(10, 80);
                     rig.velocity = new Vector2(VelX, VelY);
 
                     GetComponent<Renderer>().enabled = true;
@@ -76,8 +76,8 @@ public class BallControlScript : MonoBehaviour
                 if (Random.value < 0.5f)
                 {
                     transform.position = new Vector3(-49, 123, 48);
-                    VelX = Random.Range(10, 60);
-                    VelY = Random.Range(-10, -60);
+                    VelX = Random.Range(10, 80);
+                    VelY = Random.Range(-10, -80);
                     rig.velocity = new Vector2(VelX, VelY);
 
                     GetComponent<Renderer>().enabled = true;
@@ -86,8 +86,8 @@ public class BallControlScript : MonoBehaviour
                 else
                 {
                     transform.position = new Vector3(47, 123, 48);
-                    VelX = Random.Range(-10, -60);
-                    VelY = Random.Range(-10, -60);
+                    VelX = Random.Range(-10, -80);
+                    VelY = Random.Range(-10, -80);
                     rig.velocity = new Vector2(VelX, VelY);
 
                     GetComponent<Renderer>().enabled = true;

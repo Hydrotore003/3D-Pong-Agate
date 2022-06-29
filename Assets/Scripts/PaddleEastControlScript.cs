@@ -24,14 +24,14 @@ public class PaddleEastControlScript : MonoBehaviour
     {
         if (Input.GetKey(forwardKey))
         {
-            if (GetComponent<Rigidbody>().position.y < 120f)
+            if (GetComponent<Rigidbody>().position.y < 113f)
             {
                 return Vector3.up * speed;
             }
         }
         else if (Input.GetKey(backKey))
         {
-            if (GetComponent<Rigidbody>().position.y > 27f)
+            if (GetComponent<Rigidbody>().position.y > 35f)
             {
                 return Vector3.down * speed;
             }
